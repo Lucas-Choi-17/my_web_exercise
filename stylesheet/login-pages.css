@@ -1,0 +1,42 @@
+@import "reset.css";
+
+@import "pages_/login-pages/login.css";
+@import "pages_/login-pages/sign-in.css";
+@import "pages_/login-pages/find-account.css";
+
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: teal;
+}
+.login__main-div {
+  width: 300px;
+  height: 400px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 150px blueviolet;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: teal;
+}
+.login__top-bar {
+  height: 30px;
+  width: 80%;
+  transform: translateY(-25px);
+  background-color: teal;
+  box-shadow: none;
+}
+.login__form {
+  width: 70%;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.invisible {
+  display: none !important;
+}
